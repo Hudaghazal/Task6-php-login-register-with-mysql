@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.hcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.card-body {
+ width:200px;
+ height:500px ;
+ border: 1px solid rgb(224, 221, 221);
+ border-radius: 10px;
+ margin: 10px;
+ box-shadow: 5px 7px  7px rgb(182, 180, 180) ;
+
+}
+
+.card-img-top img{
+    width:100%;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin :3px auto;
+   }
+
+.card-title{
+
+  padding:10px 15px;
+  height: 180px;
+   }
+.card-text{
+    display: flex;
+    justify-content:space-around;
+    align-items: baseline;
+    gap: 5%;
+    color: rgb(65, 156, 241);
+    height:120px ;
+    padding:  7px 10px;
+    
+    
+}
+.card-text button{
+    color: rgb(104, 101, 101) ;
+    border: 1px solid rgb(104, 101, 101) ;
+    box-shadow: 5px 7px  7px rgb(182, 180, 180) ;
+    border-radius: 30px;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+}
+   
+.h-txt{
+   
+  color: rgb(104, 101, 101);
+
+
+}
+.h-lnk{
+    
+	background: rgb(104, 101, 101);
+	padding: 7px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+    text-decoration: none;
+}
+a:hover{
+    color:#fff;
+    opacity: 0.7;
+}
+.h-hed{
+   display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    gap:5%;
+    padding: 30px;
+}
